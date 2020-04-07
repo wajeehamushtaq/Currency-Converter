@@ -1,0 +1,23 @@
+{
+    "name": "currency-converter",
+    "version": "1.0",
+    "manifest_version":2,
+    "description": "Quick Currency converter by using European Central Bank data. 19 largest countries countries are included in this site",
+    "icons":{"128": "icon_128.png"},
+    "background": {
+        "scripts": ["background.js"]
+        },
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    
+    "content_scripts": [
+        {
+          "matches": ["https://country-currency-converter.netlify.com/"],
+          "js": ["background.js"]
+        }
+      ],
+        "web_accessible_resources": ["index.html"],
+        "permissions": ["activeTab"]
+      
+}
