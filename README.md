@@ -9,6 +9,7 @@ JavaScript
 
 ## API:
 Data is taken from European Central Bank which provides free service for current and historical foreign exchange rates
+https://exchangeratesapi.io/
 
 ## App Demo:
 ![CurrencyConverter](img/video.gif)
