@@ -1,6 +1,6 @@
 # Currency-Converter
 
-This project is convertion between 19 countries of the European Union and  largest monetary areas in the world.
+This project is currency convertion between 19 countries of the European Union and largest monetary areas in the world.
 
 ## Technology:
 HTML
